@@ -4,5 +4,5 @@ main: com.lonleaf.blockDataSaver.BlockDataSaver
 api-version: '1.13'
 authors: [ lonleaf ]
 depend: [NBTAPI]
-description: 保存方块NBT；Save NBT of blocks.
+description: Storage NBT of blocks.
 website: https://github.com/lonlf/BlockDataSaver

@@ -71,6 +71,10 @@ public class DataManager {
         return dataKeySet.contains(buildKey(blockState.getLocation()));
     }
 
+    public static boolean contains(Location location){
+        return dataKeySet.contains(buildKey(location));
+    }
+
     public static boolean isModifiedBlock(ItemStack item){
         var cleanOne = new ItemStack(item);
         cleanOne.setItemMeta(null);
